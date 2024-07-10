@@ -1,11 +1,9 @@
-body,html {
+body,
+html {
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .group-h3-p {
@@ -14,33 +12,37 @@ body,html {
     justify-content: center;
     width: 100%;
     height: 100vh;
+}
+
+.background-image {
+    background-image: url('../assets/Hero-bg.png');
+    /* Ensure this path is correct */
     background-size: cover;
-    background-position: center;  
+    background-position: center;
     background-repeat: no-repeat;
-        
 }
 
 .group-pic {
     text-align: center;
     padding: 20px;
-   
+    max-width: 600px;
+    margin: 0 auto;
 }
 
-.group-pic  {
-    display: block;
-    margin: 0 auto;
+.group-pic img {
     max-width: 100%;
     height: auto;
-  
 }
-button{
+
+button {
     background-color: rgb(143, 34, 34);
     width: 208px;
     height: 66px;
-    text-decoration: aliceblue;
+    color: white;
     font-size: medium;
     font-weight: bold;
 }
+
 .why-web {
     text-align: center;
     padding: 20px;
@@ -63,20 +65,12 @@ button{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
     max-width: 800px;
-    margin: 0 auto;
-    
+    margin: 20px auto;
 }
 
 .h2-p-container {
     text-align: center;
     padding: 20px;
-  
-}
-
-.coding-can-change {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .container {
@@ -98,39 +92,3 @@ button{
     font-size: 16px;
     line-height: 1.5;
 }
-.why-web {
-    text-align: center;
-    margin: 20px;
-}
-
-.web-heading {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-.web-description {
-    font-size: 16px;
-    line-height: 1.5;
-    margin-bottom: 20px;
-}
-
-.video-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    /* 16:9 aspect ratio */
-    height: 0;
-    overflow: hidden;
-    max-width: 800px;
-    /* Adjust this value to make the video frame bigger */
-    background: #000;
-    margin: 0 auto;
-}
-
-.video-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
