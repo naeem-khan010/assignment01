@@ -85,10 +85,101 @@ button {
 
 .heading-coding {
     font-size: 24px;
-    margin-bottom: 10px;
+    margin-bottom: 2px;
 }
 
 .this-paragraph {
     font-size: 16px;
     line-height: 1.5;
+}
+.jhanker {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.jhanker div {
+    max-width: 600px;
+  
+}
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+    max-width: 800px;
+    margin: 0 auto;
+    
+}
+
+.video-container iframe.youtube-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+.another-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.another-section h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.another-section p {
+    font-size: medium;
+    line-height: 1.6;
+}
+.content-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.content-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    justify-content: space-around;
+    
+}
+
+.content-item img {
+    border-radius: 8px 8px 0 0;
+}
+
+.content-item h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.content-item p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.content-item button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.content-item button:hover {
+    background-color: #0056b3;
 }
